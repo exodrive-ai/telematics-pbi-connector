@@ -41,7 +41,7 @@
 
 Шаг 2: Скачайте файл `TelematicsAPI.mez` из репозитория [telematics-pbi-connector/build](https://github.com/novemdata/telematics-pbi-connector/tree/main/build).
 
-Шаг 3: Скопируйте этот файл в папку `C:\Users\\\<Your_User_Name>\\Documents\Microsoft Power BI Desktop\Custom Connectors`.
+Шаг 3: Скопируйте этот файл в папку `C:\Users\<Your_User_Name>\Documents\Microsoft Power BI Desktop\Custom Connectors`.
 
 >Если папки не существуют, то создайте ее.
 
