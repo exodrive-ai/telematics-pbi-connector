@@ -1,46 +1,72 @@
-# Microsoft Power BI Custom Data Connector
-This is a repository of Power BI custom data connector developed by [max-zorn](https://github.com/max-zorn). Data Connectors are created using the M language. Please see the [Power Query Connector Developer Reference](https://docs.microsoft.com/en-us/power-query) for more details. Feel free to modify the code from  [telematics-pbi-connector/code](https://github.com/novemdata/telematics-pbi-connector/tree/main/code) under your own needs using the [official manual](https://github.com/microsoft/DataConnectors#quickstart).
+<div align="center">
 
-## The Telematics API Connector
+<h1>Telematic PBI connector</h1>
 
-This custom data connector allows you to get and visualize data from the following API methods:
+
+**Owner:** Zhukov Max
+
+**Contacts:** [Maxim.Zhukov@softline.com](Maxim.Zhukov@softline.com)
+
+</div>
+
+> Это репозиторий кастомного коннектора данных Microsoft Power BI Custom Data Connector, разработанного [max-zorn](https://github.com/max-zorn).<br>
+> Коннекторы данных создаются с использованием языка M.<br> Пожалуйста, смотрите предварительно справочные материалы [Power Query Connector Developer Reference](https://docs.microsoft.com/en-us/power-query).<br> Используйте и модифицируйте  код из  [telematics-pbi-connector/code](https://github.com/novemdata/telematics-pbi-connector/tree/main/code) под собственные нужды с помощью [official manual](https://github.com/microsoft/DataConnectors#quickstart).
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📖 Описание
+Этот кастомный коннектор данных `Microsoft Power BI Custom Data Connector` позволяет получать и визуализировать данные из следующих методов API:
 - CompareScoring
 - CrashList
 - Vouchers
 - ScoringReview
 
-### Tutorial
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Step 1: Get the key and domain for your API account
+## 🎯 Ожидает реализации
+- [ ] первое
+- [ ] второе
+- [ ] третье
 
-Step 2: Download TelematicsAPI.mez file from [telematics-pbi-connector/build](https://github.com/novemdata/telematics-pbi-connector/tree/main/build) folder in this repository
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Step 3: Copy this file under C:\Users\\\<Your_User_Name>\\Documents\Microsoft Power BI Desktop\Custom Connectors
+## 🔗 Ссылки
++ [Confluence]()
++ [Production]()
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-*If the folders do not exist, create them
+## ☁️ Развертывание функции
 
-Step 4: Open Power BI Desktop, set "(Not recommended) Allow any..." under Options/Data Extensions 
+Шаг 1: Получите ключ и домен для вашей учетной записи API.
 
-<img width="674" alt="image" src="https://user-images.githubusercontent.com/40857648/116013033-9ac55300-a636-11eb-9ee5-36c9fcffb99d.png">
+Шаг 2: Скачайте файл `TelematicsAPI.mez` из репозитория [telematics-pbi-connector/build](https://github.com/novemdata/telematics-pbi-connector/tree/main/build).
 
-Step 5: Restart Power BI Desktop and navigate to "Get Data"
+Шаг 3: Скопируйте этот файл в папку `C:\Users\\\<Your_User_Name>\\Documents\Microsoft Power BI Desktop\Custom Connectors`.
 
-<img width="1847" alt="image" src="https://user-images.githubusercontent.com/40857648/116012985-55a12100-a636-11eb-941f-0d7153e0daf6.png">
+>Если папки не существуют, то создайте ее.
 
-Step 6: Find "TelematicsAPI (Beta) and select it
+Шаг 4: Откройте `Power BI Desktop`, и установите `"(Not recommended) Allow any..."` в разделе `Options/Data Extensions`.
 
-<img width="606" alt="image" src="https://user-images.githubusercontent.com/40857648/116013190-7cac2280-a637-11eb-938c-7356873abb14.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116013033-9ac55300-a636-11eb-9ee5-36c9fcffb99d.png" >
 
-Step 7: Input domain of your API account
+Шаг 5: Перезагрузите `Power BI Desktop` и перейдите в раздел `"Get Data"`.
 
-<img width="707" alt="image" src="https://user-images.githubusercontent.com/40857648/116013284-0e1b9480-a638-11eb-8610-9f49b2303871.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116012985-55a12100-a636-11eb-941f-0d7153e0daf6.png">
 
-Step 8: Input API key of your account
+Шаг 6: Найдите онлайн сервис `"TelematicsAPI (Beta)` и выберите его.
 
-<img width="707" alt="image" src="https://user-images.githubusercontent.com/40857648/116013324-4cb14f00-a638-11eb-9e4d-c559fbadf8a7.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116013190-7cac2280-a637-11eb-938c-7356873abb14.png">
 
-Step 9: You can now select objects from your account and either immediately load data or transform it first
+Шаг 7: Введите URL Вашего API аккаунта.
 
-<img width="889" alt="image" src="https://user-images.githubusercontent.com/40857648/116013402-afa2e600-a638-11eb-9fea-310b4c0623cd.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116013284-0e1b9480-a638-11eb-8610-9f49b2303871.png">
 
+Шаг 8: Введите `API key` от Вашего аккаунта.
 
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116013324-4cb14f00-a638-11eb-9e4d-c559fbadf8a7.png">
+
+Шаг 9: Теперь вы можете выбирать объекты из своей учетной записи и либо сразу загружать данные, либо сначала преобразовывать их.
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/40857648/116013402-afa2e600-a638-11eb-9fea-310b4c0623cd.png">
+
+## 💻 Использование
